@@ -1,0 +1,84 @@
+/**************************************/
+/**************************************/
+#header,
+.home-banner-area,
+.fact-area,
+.feature-area,
+.about-area,
+.justify-content-center,
+.pricing-area,
+.footer-area,
+.banner-area .banner-content,
+.contact-page-area
+{
+    direction: rtl;
+}
+.download-button .buttons
+{
+    direction: ltr;
+}
+/*****************/
+.home-banner-content,
+.buttons p,
+.home-about-right,
+.single-price .top-left,
+.footer-area,
+#mobile-nav ul,
+.left-part,
+.contact-page-area
+{
+    text-align: right;
+}
+/***********/
+.feature-area:after
+{
+    right: auto;
+    left: 16%;
+    background: linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
+}
+/**********/
+.about-video-area .vdo-bg:before
+{
+    right: 0;
+    left: auto;
+}
+.about-video-area .vdo-bg:after
+{
+    left: 0;
+    right: auto;
+}
+/************/
+.testimonials-area .container:before
+{
+    right: 17%;
+    left: auto;
+    background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
+}
+/*************/
+.pricing-area:after
+{
+    left: 16%;
+    right: auto;
+    background: linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
+}
+/**************************/
+#mobile-nav-toggle
+{
+    left: 15px;
+    right: auto;
+}
+body.mobile-nav-active #mobile-nav
+{
+    right: 0;
+    left:auto
+}
+#mobile-nav ul .menu-has-children i
+{
+    left: 0;
+    right: auto;
+}
+/*************************/
+.fa-caret-right:before
+{
+    content: "\f0d9";
+}
